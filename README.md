@@ -3,6 +3,10 @@
 Repository with examples and basic exercises of Nodejs and express. 
 Upload files, Logging, Send emails, Tracking, etc.
 
+## Packages
+
+* Multer: https://www.npmjs.com/package/multer
+
 ## Team
 
 Developed by Diego Cortés
