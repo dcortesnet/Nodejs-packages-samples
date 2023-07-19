@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pricebooks xmlns="">
+  <pricebook>
+    <header pricebook-id="id-test">
+      <currency>CLP</currency>
+    </header>
+    <price-tables>
+      <price-table product-id="1000000">
+        <online-from>2023-06-17T10:01:00.000</online-from>
+        <online-to>2028-01-02T10:00:00.000</online-to>
+        <amount quantity="1">29990</amount>
+      </price-table>
+      <price-table product-id="2000000">
+        <online-from>2023-06-17T10:01:00.000</online-from>
+        <online-to>2028-01-02T10:00:00.000</online-to>
+        <amount quantity="1">16990</amount>
+      </price-table>
+    </price-tables>
+  </pricebook>
+</pricebooks>
