@@ -7,6 +7,7 @@ Upload files, Logging, Send emails, Tracking, etc.
 
 * Multer: https://www.npmjs.com/package/multer
 * XML2: https://www.npmjs.com/package/xml2js
+* Node-cron: https://www.npmjs.com/package/node-cron
 
 ## Team
 
