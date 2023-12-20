@@ -5,9 +5,10 @@ Upload files, Logging, Send emails, Tracking, etc.
 
 ## Packages
 
-- Multer: https://www.npmjs.com/package/multer
-- XML2: https://www.npmjs.com/package/xml2js
-- Node-cron: https://www.npmjs.com/package/node-cron
+1. Multer: https://www.npmjs.com/package/multer
+2. Node-cron: https://www.npmjs.com/package/node-cron
+3. XML2: https://www.npmjs.com/package/xml2js
+4. Joi: https://www.npmjs.com/package/joi
 
 ## Team
 
