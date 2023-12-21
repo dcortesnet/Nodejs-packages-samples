@@ -9,6 +9,7 @@ Upload files, Logging, Send emails, Tracking, etc.
 2. Node-cron: https://www.npmjs.com/package/node-cron
 3. XML2: https://www.npmjs.com/package/xml2js
 4. Joi: https://www.npmjs.com/package/joi
+5. Winston: https://www.npmjs.com/package/winston
 
 ## Team
 
