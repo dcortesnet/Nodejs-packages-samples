@@ -10,6 +10,7 @@ Upload files, Logging, Send emails, Tracking, etc.
 3. XML2: https://www.npmjs.com/package/xml2js
 4. Joi: https://www.npmjs.com/package/joi
 5. Winston: https://www.npmjs.com/package/winston
+6. Jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken
 
 ## Team
 
