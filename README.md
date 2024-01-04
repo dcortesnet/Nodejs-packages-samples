@@ -11,6 +11,7 @@ Upload files, Logging, Send emails, Tracking, etc.
 4. Joi: https://www.npmjs.com/package/joi
 5. Winston: https://www.npmjs.com/package/winston
 6. Jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken
+7. SSH2-sftp-client: https://www.npmjs.com/package/ssh2-sftp-client
 
 ## Team
 
