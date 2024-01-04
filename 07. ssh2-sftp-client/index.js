@@ -2,10 +2,10 @@ const SftpClient = require("ssh2-sftp-client");
 const fs = require("fs").promises;
 
 const config = {
-  host: "tu_host_sftp",
+  host: "localhost",
   port: 22,
-  username: "tu_usuario",
-  password: "tu_contraseña",
+  username: "username",
+  password: "password",
 };
 
 const sftp = new SftpClient();
@@ -64,12 +64,15 @@ async function closeSFTPConnection() {
 async function main() {
   try {
     await connectToSFTP();
-    const remoteFiles = await listRemoteFiles("/ruta/del/directorio/remoto");
-    const localFilePath = "/ruta/local/del/archivo.txt";
-    const remoteFilePath = "/ruta/del/directorio/remoto/archivo.txt";
-    await uploadFile(localFilePath, remoteFilePath);
-    const downloadedFilePath = "/ruta/local/del/archivo_descargado.txt";
-    await downloadFile(remoteFilePath, downloadedFilePath);
+    const remoteFiles = await listRemoteFiles(
+      "/home/vsftpd/user/sample-directory"
+    );
+
+    //const localFilePath = "/ruta/local/del/archivo.txt";
+    //const remoteFilePath = "/ruta/del/directorio/remoto/archivo.txt";
+    //await uploadFile(localFilePath, remoteFilePath);
+    //const downloadedFilePath = "/ruta/local/del/archivo_descargado.txt";
+    //await downloadFile(remoteFilePath, downloadedFilePath);
   } catch (error) {
     console.error("Error principal:", error.message);
   } finally {
