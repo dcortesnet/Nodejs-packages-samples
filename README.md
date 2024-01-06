@@ -11,6 +11,7 @@ Upload files, Logging, Send emails, Tracking, etc.
 4. Joi: https://www.npmjs.com/package/joi
 5. Winston: https://www.npmjs.com/package/winston
 6. Jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken
+7. Prettier: https://www.npmjs.com/package/prettier
 
 ## Team
 
