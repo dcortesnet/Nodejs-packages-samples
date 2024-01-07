@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "no-unused-vars": "error",
+        "no-extra-semi": "error",
+        "eqeqeq": "error",
+        "camelcase": "error"
+    }
+}
